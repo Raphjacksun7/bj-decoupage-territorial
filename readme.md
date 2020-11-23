@@ -1,6 +1,6 @@
 # Découpage territorial
 
-> Liste des départements, communes, arrondissements et les quartiers du Bénin. 
+> Liste des départements, communes, arrondissements et les quartiers du Bénin. L'API est décrite [ici]().
 
 - Pour commencer à contribuer, suivez le guide de [contribution](CONTRIBUTING.md).
 - Pour installer le projet en local, suivez la [documentation](#documentation) ci-dessous.
