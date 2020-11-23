@@ -20,6 +20,10 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
+Route.get('/', async ({response}) => {
+  return response.redirect('/docs')
+})
+
 Route
   .group(() => {
     // Departments...
