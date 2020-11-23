@@ -24,6 +24,9 @@ Route
   .group(() => {
     // Departments...
     Route.get('/departments', 'DepartmentsController.index')
-
+    Route.get('/departments/:search/towns', 'DepartmentsController.getTowns')
+    Route.get('/departments/:search/districts', 'DepartmentsController.getDistricts')
+    Route.get('/departments/:search/neighborhoods', 'DepartmentsController.getNeighborhoods')
+    
   })
   .prefix('/api/v1')
