@@ -26,3 +26,4 @@ jobs:
           HOST: 0.0.0.0
           PORT: 3333
           APP_KEY: y69lqQEOf690zZ_bG6lAMh_O24Sq4IDW
+          DB_CONNECTION: sqlite
