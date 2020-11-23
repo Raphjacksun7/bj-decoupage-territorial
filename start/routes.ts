@@ -20,6 +20,10 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
-Route.get('/', async () => {
-  return { hello: 'world' }
-})
+Route
+  .group(() => {
+    // Departments...
+    Route.get('/departments', 'DepartmentsController.index')
+
+  })
+  .prefix('/api/v1')
