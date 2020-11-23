@@ -6,10 +6,21 @@ export default class DepartmentsController {
     /**
      * Return all departments
      */
+    /**
+     * @swagger
+     * /api/v1/departments:
+     *   get:
+     *     tags:
+     *       - Departments
+     *     summary: Get all departments
+     *     responses:
+     *       200:
+     *         description: OK
+     */
     public async index ({ response }: HttpContextContract) {
         return response.status(200)
             .json({
-                'departments': await Department.all()
+                'departments': await Department.query().orderBy('id', 'asc')
             })
     }
 
