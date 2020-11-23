@@ -1,11 +1,9 @@
 # Découpage territorial
 
-> Ce repository est l'application Node.js qui propulse l'API des départements, communes, arrondissements et les quartiers du Bénin. 
+> Liste des départements, communes, arrondissements et les quartiers du Bénin. 
 
-Nous serions ravis que vous songiez à contribuer au projet.
-
-- Pour commencer à contribuer, suivez le guide de contribution.
-- Pour installer le projet en local, suivez la documentation.
+- Pour commencer à contribuer, suivez le guide de [contribution](CONTRIBUTING.md).
+- Pour installer le projet en local, suivez la [documentation](#documentation) ci-dessous.
 
 # Documentation
 
