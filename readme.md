@@ -29,7 +29,7 @@ mysql -u root -p decoupage < req.sql
 
 # Nomenclature
 
-| First Header  | Second Header   |
+| Syntaxe       | Correspondance  |
 | ------------- | --------------- |
 | department    | Département     |
 | town          | Commune         |
