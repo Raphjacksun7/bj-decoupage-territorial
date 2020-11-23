@@ -23,3 +23,5 @@ jobs:
       - run: npm test
         env:
           CI: true
+          HOST: 0.0.0.0
+          PORT: 3333
